@@ -53,7 +53,22 @@ public class ButtonBarBuilder {
 				panel.add(buttons.get(i));
 			}
 		}
+		
+		int maxBtnWidth = maxButtonWidth();
+		for (AbstractButton button: buttons)
+			button.setPreferredSize(new Dimension(maxBtnWidth, button.getPreferredSize().height));
+
 		return panel;
+	}
+
+	private int maxButtonWidth() {
+		int maxWidth = 0;
+		for (AbstractButton button: buttons) {
+			int width = button.getMinimumSize().width;
+			if (width > maxWidth)
+				maxWidth = width;
+		}
+		return maxWidth;
 	}
 	
 }

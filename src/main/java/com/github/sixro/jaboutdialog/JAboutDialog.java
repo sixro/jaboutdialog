@@ -95,7 +95,7 @@ public class JAboutDialog extends JDialog {
 		List<String> propertyNames = new ArrayList<>(props.stringPropertyNames());
 		Collections.sort(propertyNames);
 		for (String propName: propertyNames) {
-			System.out.println(propName);
+			//System.out.println(propName);
 			tableModel.addRow(new Object[] { propName, System.getProperty(propName) });
 		}
 		JTable systemPropsPane = new JTable(tableModel);
