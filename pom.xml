@@ -3,7 +3,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.github.sixro</groupId>
-	<artifactId>jaboutdialog</artifactId>
+	<artifactId>swing-guidelines-helper</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
@@ -41,15 +41,15 @@
 	</dependencies>
 
 	<scm>
-		<connection>scm:git:git@github.com:sixro/jaboutdialog.git</connection>
-		<developerConnection>scm:git:git@github.com:sixro/jaboutdialog.git</developerConnection>
-		<url>git@github.com:sixro/jaboutdialog.git</url>
+		<connection>scm:git:git@github.com:sixro/swing-guidelines-helper.git</connection>
+		<developerConnection>scm:git:git@github.com:sixro/swing-guidelines-helper.git</developerConnection>
+		<url>git@github.com:sixro/swing-guidelines-helper.git</url>
 		<tag>HEAD</tag>
 	</scm>
 
 	<issueManagement>
 		<system>Github Issue Tracker</system>
-		<url>https://github.com/sixro/jaboutdialog</url>
+		<url>https://github.com/sixro/swing-guidelines-helper</url>
 	</issueManagement>
 
 	<licenses>
